@@ -1,13 +1,15 @@
 #include<stdio.h>
 int main()
-{int a,b,c,d,e;
+{int a,b,c,d,e,f;
 a=2;
 b=3
 c=a+b;
 d=a-b;
 e=a*b;
+f=a/b;
 printf("the sum of :%d",c);
 printf("the sub :%d",d);
 printf("the mul:%d",e);
+printf("the div:%d",f);
 return 0;
 }
